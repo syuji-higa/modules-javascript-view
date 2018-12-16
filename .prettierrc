@@ -1,0 +1,16 @@
+# .prettierrc
+
+overrides:
+- files: "*.js"
+  options:
+    semi: false
+    singleQuote: true
+    arrowParens: "always"
+- files: "src/js/**/*.js"
+  options:
+    semi: false
+    singleQuote: true
+    arrowParens: "always"
+- files: "src/sass/**/*.scss"
+  options:
+    parser: "scss"
